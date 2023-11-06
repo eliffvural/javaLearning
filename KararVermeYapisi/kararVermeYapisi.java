@@ -54,6 +54,26 @@ public class kararVermeYapisi {
         else{
             System.out.println("Yardim icin gerekli sebepler bulunamamistir.");
         }
+
+
+        int alinanPuan;
+        char harfPuan;
+
+        Scanner klavye2= new Scanner(System.in);
+
+        System.out.println("Sinavdan almis oldugunuz puani klavyeden giriniz: ");
+        alinanPuan=klavye2.nextInt();
+
+        if(alinanPuan<50){
+            harfPuan='F';
+            System.out.println("Aldiginiz puana denk olan harf notunuz: "+harfPuan);
+        }
+        else{
+            harfPuan='A';
+            System.out.println("Aldiginiz puana denk olan harf puaniniz: "+harfPuan);
+        }
+
+
         
 
     }
